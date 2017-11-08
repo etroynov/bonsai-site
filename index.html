@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bonsai.js - next generation content manager system for node.js</title>
+    <meta name="description" content="Node.js CMS & Web Application Platform Built on Koa, React and MongoDB.">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.34/css/uikit.min.css" />
+    <style>
+      html,
+      body {
+        font: 15px 'Roboto', Helvetica, sans-serif;
+      }
+
+      .header {
+        text-align: center;
+      }
+
+      .header__logo {
+        text-transform: uppercase;
+      }
+
+      .header__content {
+        padding-top: 30px;
+      }
+
+      .header__devider {
+        display: inline-block;
+        width: 10%;
+      }
+
+      .header__title {
+        margin: 20px 0 0 0;
+        font-weight: 300;
+        font-size: 72px;
+        text-transform: uppercase;
+      }
+
+      .header__img {
+        padding: 0 0 0 120px;
+      }
+
+      .header__disclamer {
+        margin-top: 0;
+      }
+
+      .header__text {
+        font-size: 18px;
+      }
+
+      .install__buttons-container {
+        padding: 40px 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="uk-container">
+          <nav class="header__navbar uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-left">
+              <a class="header__logo uk-navbar-item uk-logo" href="#">bonsai.js</a>
+            </div>
+
+            <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav">
+                <li><a href="/guides">guides</a></li>
+                <li><a href="/community">community</a></li>
+                <li><a href="/donate">donate</a></li>
+                <li><a href="https://github.com/etroynov/bonsai">source code</a></li>
+                <li><a href="/blog">blog</a></li>
+                <li><a href="/team">team</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="header__content">
+            <img src="assets/img/logo.jpg" alt="" class="header__img">
+            <h1 class="header__title">bonsai.js</h1>
+            <hr class="header__devider">
+            <h2 class="header__disclamer">Node.js CMS & Web Application Platform <br> Built on Koa, React and MongoDB.</h2>
+            <p class="header__text">The open source framework for developing database-driven websites, applications and APIs.</p>
+          </div>
+        </div>
+      </header>
+      <section class="install">
+        <div class="uk-container">
+          <div class="install__buttons-container">
+            <a href="#install" class="uk-button uk-button-default">Install 0.0.1</a>
+            <a href="/getting-started/" class="uk-button uk-button-default">get started</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="content">
+      <div class="uk-container">
+        <hr>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.34/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.34/js/uikit-icons.min.js"></script>
+  </body>
+</html>
